@@ -18,7 +18,11 @@ public class ImageHelper {
 	private static final String TAG = "ImageHelper";
 	
 	public static String getImageUrl(String webServerStr, int position) {
-		return "http://" + webServerStr + "/" + (position % 50) + ".jpg";
+		if (position % 2 == 0){
+			return webServerStr+"pic30.nipic.com/20130613/13010919_224021737129_2.jpg";
+		}else {
+			return webServerStr+"img1.3lian.com/img13/c3/43/d/52.jpg";
+		}
 	}
 
 	/**

@@ -18,7 +18,7 @@ import android.widget.GridView;
 import com.carrey.customview.customview.CustomView;
 /**
  异步加载的两种方式:AsyncTask与ThreadPool
- 推荐参考：
+ 参考：
  http://blog.csdn.net/yaya_soft/article/details/24396357
  *
  */
