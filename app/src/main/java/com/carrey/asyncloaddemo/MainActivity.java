@@ -21,6 +21,7 @@ import com.carrey.customview.customview.CustomView;
  参考：
  http://blog.csdn.net/yaya_soft/article/details/24396357
  *
+ * @author hongri
  */
 public class MainActivity extends Activity implements ThreadPoolTaskBitmap.CallBack {
 
