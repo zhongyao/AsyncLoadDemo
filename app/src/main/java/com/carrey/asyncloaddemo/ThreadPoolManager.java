@@ -10,6 +10,10 @@ import android.util.Log;
  * 线程池管理类
  *
  * @author hongri
+ *         线程池的好处：
+ *         1、减少重复创建、销毁线程的性能开销。
+ *         2、有效控制线程的最大并发数，避免大量的线程之间因互相抢占资源而导致的阻塞现象。
+ *         3、能够对线程进行简单的管理，并提供定时执行及指定间隔循环执行等功能。
  */
 public class ThreadPoolManager {
 
@@ -109,8 +113,10 @@ public class ThreadPoolManager {
      * 结束轮询，关闭线程池
      */
     public void stop() {
-        poolThread.interrupt();
-        poolThread = null;
+        if (poolThread != null) {
+            poolThread.interrupt();
+            poolThread = null;
+        }
     }
 
     /**

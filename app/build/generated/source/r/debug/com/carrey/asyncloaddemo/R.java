@@ -176,14 +176,15 @@ public final class R {
     public static final int item_bg=0x7f020001;
   }
   public static final class id {
-    public static final int btn_async=0x7f030000;
-    public static final int btn_pool=0x7f030001;
-    public static final int center=0x7f030002;
-    public static final int customview=0x7f030003;
-    public static final int fillXY=0x7f030004;
-    public static final int gridview=0x7f030005;
-    public static final int menu_settings=0x7f030006;
-    public static final int topButtons=0x7f030007;
+    public static final int btnThreadPool=0x7f030000;
+    public static final int btn_async=0x7f030001;
+    public static final int btn_pool=0x7f030002;
+    public static final int center=0x7f030003;
+    public static final int customview=0x7f030004;
+    public static final int fillXY=0x7f030005;
+    public static final int gridview=0x7f030006;
+    public static final int menu_settings=0x7f030007;
+    public static final int topButtons=0x7f030008;
   }
   public static final class layout {
     public static final int activity_main=0x7f040000;

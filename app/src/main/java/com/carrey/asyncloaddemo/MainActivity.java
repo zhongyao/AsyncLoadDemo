@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.GridView;
+import com.carrey.ThreadPoolTest;
 import com.carrey.customview.customview.CustomView;
 
 /**
@@ -34,6 +35,8 @@ public class MainActivity extends Activity implements ThreadPoolTaskBitmap.CallB
     private Button btnAsync;
 
     private Button btnPool;
+
+    private Button btnThreadPool;
 
     private GridView gridView;
     private GridAdapter adapter;
@@ -59,7 +62,10 @@ public class MainActivity extends Activity implements ThreadPoolTaskBitmap.CallB
         btnAsync = (Button)findViewById(R.id.btn_async);
         btnAsync.setOnClickListener(new AsyncButtonClick());
         btnPool = (Button)findViewById(R.id.btn_pool);
+        btnThreadPool = (Button)findViewById(R.id.btnThreadPool);
+
         btnPool.setOnClickListener(new PoolButtonClick());
+        btnThreadPool.setOnClickListener(new ThreadPoolClick());
         gridView = (GridView)findViewById(R.id.gridview);
 
         adapter = new GridAdapter();
@@ -86,6 +92,15 @@ public class MainActivity extends Activity implements ThreadPoolTaskBitmap.CallB
             adapter.notifyDataSetChanged();
         }
 
+    }
+
+    private class ThreadPoolClick implements OnClickListener{
+
+        @Override
+        public void onClick(View v) {
+            ThreadPoolTest threadPoolTest = new ThreadPoolTest();
+            threadPoolTest.doTask();
+        }
     }
 
     private class GridAdapter extends BaseAdapter {
