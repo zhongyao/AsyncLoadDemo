@@ -7,8 +7,8 @@ import com.carrey.customview.customview.CustomView;
 
 /**
  * @author hongri
- * execute 串行执行任务
- * executeOnExecutor 并行执行任务
+ *         execute 串行执行任务
+ *         executeOnExecutor 并行执行任务
  */
 public class AsyncLoadTask extends AsyncTask<Integer, Void, Pair<Integer, Bitmap>> {
 
@@ -33,6 +33,7 @@ public class AsyncLoadTask extends AsyncTask<Integer, Void, Pair<Integer, Bitmap
 
     /**
      * 在线程池中执行，此方法用于执行异步任务
+     *
      * @param params
      * @return
      */
@@ -46,6 +47,7 @@ public class AsyncLoadTask extends AsyncTask<Integer, Void, Pair<Integer, Bitmap
 
     /**
      * 在主线程中执行，当publishProgress方法被调用时，该方法被调用。
+     *
      * @param values
      */
     @Override
@@ -55,6 +57,7 @@ public class AsyncLoadTask extends AsyncTask<Integer, Void, Pair<Integer, Bitmap
 
     /**
      * 在主线程中执行，在异步任务执行完之后，此方法会被调用。
+     *
      * @param result
      */
     @Override
