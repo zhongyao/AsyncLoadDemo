@@ -16,7 +16,14 @@ import android.util.Log;
  * @author zhongyao
  * @date 2018/8/16
  *
- * 线程池举例
+ * 线程池的四种分类：
+ * FixedThreadPool
+ * CachedThreadPool
+ * ScheduledThreadPool
+ * SingleThreadExecutor
+ *
+ * 但一般建议使用ThreadPoolExecutor来根据需要灵活的开启线程池。
+ *
  */
 
 public class ThreadPoolTest {
