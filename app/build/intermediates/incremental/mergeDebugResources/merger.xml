@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="/Users/zhongyao/workspace/AndroidStudioProjects/AsyncLoadDemo/app/src/main/res"/><source path="/Users/zhongyao/workspace/AndroidStudioProjects/AsyncLoadDemo/app/build/generated/res/rs/debug"/><source path="/Users/zhongyao/workspace/AndroidStudioProjects/AsyncLoadDemo/app/build/generated/res/resValues/debug"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="/Users/zhongyao/workspace/AndroidStudioProjects/AsyncLoadDemo/app/src/main/res"><file path="/Users/zhongyao/workspace/AndroidStudioProjects/AsyncLoadDemo/app/src/main/res/values-v11/styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        
+    </style></file><file name="item" path="/Users/zhongyao/workspace/AndroidStudioProjects/AsyncLoadDemo/app/src/main/res/layout/item.xml" qualifiers="" type="layout"/><file name="activity_main" path="/Users/zhongyao/workspace/AndroidStudioProjects/AsyncLoadDemo/app/src/main/res/layout/activity_main.xml" qualifiers="" type="layout"/><file path="/Users/zhongyao/workspace/AndroidStudioProjects/AsyncLoadDemo/app/src/main/res/values/styles.xml" qualifiers=""><style name="AppBaseTheme" parent="android:Theme.Light">
+        
+    </style><style name="AppTheme" parent="AppBaseTheme">
+        
+    </style></file><file path="/Users/zhongyao/workspace/AndroidStudioProjects/AsyncLoadDemo/app/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">AsyncLoadDemo</string><string name="hello_world">Hello world!</string><string name="menu_settings">Settings</string><string name="web_server">http://</string></file><file path="/Users/zhongyao/workspace/AndroidStudioProjects/AsyncLoadDemo/app/src/main/res/values/attrs.xml" qualifiers=""><attr format="reference" name="imageSrc"/><attr format="float" name="imageAspectRatio"/><attr format="float" name="imageAlpha"/><attr format="dimension" name="imagePaddingLeft"/><attr format="dimension" name="imagePaddingTop"/><attr format="dimension" name="imagePaddingRight"/><attr format="dimension" name="imagePaddingBottom"/><attr name="imageScaleType">
+        <enum name="fillXY" value="0"/>
+        <enum name="center" value="1"/>
+    </attr><attr format="string" name="titleText"/><attr format="dimension" name="titleTextSize"/><attr format="color" name="titleTextColor"/><attr format="dimension" name="titlePaddingLeft"/><attr format="dimension" name="titlePaddingTop"/><attr format="dimension" name="titlePaddingRight"/><attr format="dimension" name="titlePaddingBottom"/><attr format="string" name="subTitleText"/><attr format="dimension" name="subTitleTextSize"/><attr format="color" name="subTitleTextColor"/><attr format="dimension" name="subTitlePaddingLeft"/><attr format="dimension" name="subTitlePaddingTop"/><attr format="dimension" name="subTitlePaddingRight"/><attr format="dimension" name="subTitlePaddingBottom"/><declare-styleable name="CustomView">
+        <attr name="imageSrc"/>
+        <attr name="imageAspectRatio"/>
+        <attr name="imageAlpha"/>
+        <attr name="imagePaddingLeft"/>
+        <attr name="imagePaddingTop"/>
+        <attr name="imagePaddingRight"/>
+        <attr name="imagePaddingBottom"/>
+        <attr name="imageScaleType"/>
+        <attr name="titleText"/>
+        <attr name="titleTextSize"/>
+        <attr name="titleTextColor"/>
+        <attr name="titlePaddingLeft"/>
+        <attr name="titlePaddingTop"/>
+        <attr name="titlePaddingRight"/>
+        <attr name="titlePaddingBottom"/>
+        <attr name="subTitleText"/>
+        <attr name="subTitleTextSize"/>
+        <attr name="subTitleTextColor"/>
+        <attr name="subTitlePaddingLeft"/>
+        <attr name="subTitlePaddingTop"/>
+        <attr name="subTitlePaddingRight"/>
+        <attr name="subTitlePaddingBottom"/>
+    </declare-styleable></file><file name="ic_launcher" path="/Users/zhongyao/workspace/AndroidStudioProjects/AsyncLoadDemo/app/src/main/res/drawable-xhdpi/ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file path="/Users/zhongyao/workspace/AndroidStudioProjects/AsyncLoadDemo/app/src/main/res/values-v14/styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        
+    </style></file><file name="item_bg" path="/Users/zhongyao/workspace/AndroidStudioProjects/AsyncLoadDemo/app/src/main/res/drawable-hdpi/item_bg.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="/Users/zhongyao/workspace/AndroidStudioProjects/AsyncLoadDemo/app/src/main/res/drawable-hdpi/ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="/Users/zhongyao/workspace/AndroidStudioProjects/AsyncLoadDemo/app/src/main/res/drawable-ldpi/ic_launcher.png" qualifiers="ldpi-v4" type="drawable"/><file name="activity_main" path="/Users/zhongyao/workspace/AndroidStudioProjects/AsyncLoadDemo/app/src/main/res/menu/activity_main.xml" qualifiers="" type="menu"/><file name="ic_launcher" path="/Users/zhongyao/workspace/AndroidStudioProjects/AsyncLoadDemo/app/src/main/res/drawable-mdpi/ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/></source><source path="/Users/zhongyao/workspace/AndroidStudioProjects/AsyncLoadDemo/app/build/generated/res/rs/debug"/><source path="/Users/zhongyao/workspace/AndroidStudioProjects/AsyncLoadDemo/app/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="/Users/zhongyao/workspace/AndroidStudioProjects/AsyncLoadDemo/app/src/debug/res"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="/Users/zhongyao/workspace/AndroidStudioProjects/AsyncLoadDemo/app/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="CustomView"><attr name="imageSrc"/><attr name="imageAspectRatio"/><attr name="imageAlpha"/><attr name="imagePaddingLeft"/><attr name="imagePaddingTop"/><attr name="imagePaddingRight"/><attr name="imagePaddingBottom"/><attr name="imageScaleType"/><attr name="titleText"/><attr name="titleTextSize"/><attr name="titleTextColor"/><attr name="titlePaddingLeft"/><attr name="titlePaddingTop"/><attr name="titlePaddingRight"/><attr name="titlePaddingBottom"/><attr name="subTitleText"/><attr name="subTitleTextSize"/><attr name="subTitleTextColor"/><attr name="subTitlePaddingLeft"/><attr name="subTitlePaddingTop"/><attr name="subTitlePaddingRight"/><attr name="subTitlePaddingBottom"/></declare-styleable></configuration></mergedItems></merger>
