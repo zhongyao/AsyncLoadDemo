@@ -13,6 +13,7 @@ import com.thread.threadsync.synchronize.TaskRunnable;
 
 /**
  * 线程同步的几种方式
+ * 参考: https://www.cnblogs.com/jtlgb/p/11864607.html
  */
 public class ThreadSyncActivity extends Activity implements View.OnClickListener {
 

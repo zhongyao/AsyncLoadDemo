@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:background="#009900"
-        android:text="synchronized"
+        android:text="wait和notify"
         android:textColor="#ffff00"
         android:textStyle="bold" />
 
@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:background="#009900"
-        android:text="synchronized"
+        android:text="volatile"
         android:textColor="#ffff00"
         android:textStyle="bold" />
 
@@ -52,7 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:background="#009900"
-        android:text="synchronized"
+        android:text="重入锁(ReentrantLock)"
         android:textColor="#ffff00"
         android:textStyle="bold" />
 
@@ -62,7 +62,27 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:background="#009900"
-        android:text="synchronized"
+        android:text="ThreadLocal"
+        android:textColor="#ffff00"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSync6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#009900"
+        android:text="LinkedBlockingQueue"
+        android:textColor="#ffff00"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSync7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#009900"
+        android:text="原子变量(AtomicInteger)"
         android:textColor="#ffff00"
         android:textStyle="bold" />
 
