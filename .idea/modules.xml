@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AsyncLoadDemo.iml" filepath="$PROJECT_DIR$/AsyncLoadDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidStudioProjects.AsyncLoadDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidStudioProjects.AsyncLoadDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AsyncLoadDemo.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AsyncLoadDemo.app.iml" />
     </modules>
   </component>
 </project>
