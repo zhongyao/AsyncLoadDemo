@@ -10,6 +10,8 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.util.Log;
 
 /**
@@ -26,6 +28,7 @@ import android.util.Log;
  *
  */
 
+@RequiresApi(api = Build.VERSION_CODES.GINGERBREAD)
 public class ThreadPoolTest {
     private static final String TAG = "yao";
 

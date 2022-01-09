@@ -20,9 +20,9 @@ public class ImageHelper {
 
     public static String getImageUrl(String webServerStr, int position) {
         if (position % 2 == 0) {
-            return webServerStr + "pic30.nipic.com/20130613/13010919_224021737129_2.jpg";
+            return "https://img2.baidu.com/it/u=1814268193,3619863984&fm=253&fmt=auto&app=138&f=JPEG?w=632&h=500";
         } else {
-            return webServerStr + "img1.3lian.com/img13/c3/43/d/52.jpg";
+            return "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2F1113%2F021620115230%2F200216115230-9-1200.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1644309943&t=ded5ec37720ff802393e1a6ad20f254f";
         }
     }
 
