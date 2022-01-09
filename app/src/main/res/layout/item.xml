@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.carrey.customview.customview.CustomView 
+<com.thread.customview.customview.CustomView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:carrey="http://schemas.android.com/apk/res/com.carrey.asyncloaddemo"
     android:id="@+id/customview"

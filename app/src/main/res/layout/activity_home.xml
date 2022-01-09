@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context="com.thread.threadsync.ThreadSyncActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="多线程示例"
+        android:textColor="#ff0000"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnThreadPool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#009900"
+        android:text="线程池"
+        android:textColor="#ffff00"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#009900"
+        android:text="线程同步"
+        android:textColor="#ffff00"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

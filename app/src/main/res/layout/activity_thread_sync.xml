@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context="com.thread.threadsync.ThreadSyncActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="线程同步的几种方式"
+        android:textColor="#ff0000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSync1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#009900"
+        android:text="synchronized"
+        android:textColor="#ffff00"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSync2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#009900"
+        android:text="synchronized"
+        android:textColor="#ffff00"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSync3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#009900"
+        android:text="synchronized"
+        android:textColor="#ffff00"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSync4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#009900"
+        android:text="synchronized"
+        android:textColor="#ffff00"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSync5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#009900"
+        android:text="synchronized"
+        android:textColor="#ffff00"
+        android:textStyle="bold" />
+
+</LinearLayout>
