@@ -1,34 +1,49 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                tools:context=".ThreadPoolActivity">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThreadPoolActivity">
 
     <LinearLayout
         android:id="@+id/topButtons"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/btn_async"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="AsyncTask"/>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="#009900"
+            android:layout_weight="1"
+            android:text="AsyncTask"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btn_pool"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ThreadPool"/>
+            android:layout_margin="2dp"
+            android:background="#009900"
+            android:layout_weight="1"
+            android:text="ThreadPool"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btnThreadPool"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#aaddee"
-            android:text="线程池测试"/>
+            android:background="#009900"
+            android:text="四种线程池测试"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
     </LinearLayout>
 
     <GridView
@@ -39,6 +54,6 @@
         android:background="#436EEE"
         android:fadeScrollbars="false"
         android:horizontalSpacing="2dp"
-        android:numColumns="8"
-        android:verticalSpacing="2dp"/>
+        android:numColumns="6"
+        android:verticalSpacing="2dp" />
 </RelativeLayout>

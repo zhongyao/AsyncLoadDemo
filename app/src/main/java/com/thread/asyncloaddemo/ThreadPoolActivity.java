@@ -4,7 +4,9 @@ import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.RequiresApi;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
@@ -96,6 +98,7 @@ public class ThreadPoolActivity extends Activity implements ThreadPoolTaskBitmap
 
     private class ThreadPoolClick implements OnClickListener{
 
+        @RequiresApi(api = Build.VERSION_CODES.GINGERBREAD)
         @Override
         public void onClick(View v) {
             ThreadPoolTest threadPoolTest = new ThreadPoolTest();
@@ -128,7 +131,7 @@ public class ThreadPoolActivity extends Activity implements ThreadPoolTaskBitmap
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
-            ViewHolder holder = null;
+            ViewHolder holder;
             if (convertView == null) {
                 holder = new ViewHolder();
                 convertView = inflater.inflate(R.layout.item, null);
