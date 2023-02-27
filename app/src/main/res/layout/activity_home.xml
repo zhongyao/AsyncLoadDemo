@@ -35,6 +35,16 @@
         android:textColor="#ffff00"
         android:textStyle="bold" />
 
+    <Button
+        android:id="@+id/deadLock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#009900"
+        android:text="死锁"
+        android:textColor="#ffff00"
+        android:textStyle="bold" />
+
 
 
 </LinearLayout>

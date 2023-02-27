@@ -9,6 +9,7 @@ import android.widget.Button;
 
 import com.thread.asyncloaddemo.R;
 import com.thread.asyncloaddemo.ThreadPoolActivity;
+import com.thread.deadlock.DeadLockActivity;
 import com.thread.threadsync.ThreadSyncActivity;
 
 /**
@@ -16,7 +17,7 @@ import com.thread.threadsync.ThreadSyncActivity;
  */
 public class HomeActivity extends Activity {
 
-    private Button btnThreadPool, btnSync;
+    private Button btnThreadPool, btnSync, deadLock;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +25,7 @@ public class HomeActivity extends Activity {
 
         btnThreadPool = (Button) findViewById(R.id.btnThreadPool);
         btnSync = (Button) findViewById(R.id.btnSync);
+        deadLock = (Button) findViewById(R.id.deadLock);
 
         btnThreadPool.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,6 +39,14 @@ public class HomeActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(HomeActivity.this, ThreadSyncActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        deadLock.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, DeadLockActivity.class);
                 startActivity(intent);
             }
         });
