@@ -45,6 +45,35 @@
         android:textColor="#ffff00"
         android:textStyle="bold" />
 
+    <Button
+        android:id="@+id/btnJoin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#009900"
+        android:text="让主线程等待子线程执行完再执行(一)"
+        android:textColor="#ffff00"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCountDownLatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#009900"
+        android:text="让主线程等待子线程执行完再执行(二)"
+        android:textColor="#ffff00"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnFutureTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#009900"
+        android:text="让主线程等待子线程执行完再执行(三)"
+        android:textColor="#ffff00"
+        android:textStyle="bold" />
 
 
 </LinearLayout>
